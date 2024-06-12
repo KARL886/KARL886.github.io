@@ -43,18 +43,17 @@
             padding: 10px;
             background-color: #333;
             color: white;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
         }
         .gallery {
-            display: flex;
-            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 10px;
-            justify-content: center;
+            justify-items: center;
         }
         .gallery img {
             max-width: 100%;
+            max-height: 200px; /* 设置图片最大高度 */
+            width: auto;
             height: auto;
             border: 1px solid #ddd;
             border-radius: 4px;
@@ -97,8 +96,8 @@
             <div class="gallery">
                 <img src="image1.jpg" alt="图片1">
                 <img src="image2.jpg" alt="图片2">
-                <img src="image3.jpg" alt="图片1">
-                <img src="image4.jpg" alt="图片2">
+                <img src="image3.jpg" alt="图片3">
+                <img src="image4.jpg" alt="图片4">
             </div>
         </section>
         <section id="contact">
@@ -110,5 +109,8 @@
             </address>
         </section>
     </main>
+    <footer>
+        <p>&copy; 2024 我的公司. 保留所有权利.</p>
+    </footer>
 </body>
 </html>
