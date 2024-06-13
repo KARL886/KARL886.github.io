@@ -35,7 +35,8 @@ main {
     border: 1px solid #ddd;
     border-radius: 5px;
     overflow: hidden;
-    width: 300px;
+    width: 300px; /* 设置图片容器的宽度 */
+    height: 400px; /* 设置图片容器的高度 */
     text-align: center;
     cursor: pointer;
     transition: transform 0.2s ease;
@@ -47,7 +48,8 @@ main {
 
 .image img {
     width: 100%;
-    height: auto;
+    height: 100%; /* 图片占据容器的全部高度 */
+    object-fit: cover; /* 保持图片比例并填充整个容器 */
 }
 
 .image p {
