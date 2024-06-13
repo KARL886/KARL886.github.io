@@ -2,7 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const images = [
         { src: 'images/image1.jpg', alt: '展示图片1', description: '七点鲳' },
         { src: 'images/image2.jpg', alt: '展示图片2', description: '加工后' },
-        { src: 'images/image3.jpg', alt: '展示图片3', description: '丰收' }
+        { src: 'images/image3.jpg', alt: '展示图片3', description: '丰收' },
+        { src: 'images/image4.jpg', alt: '展示图片4', description: '风景' }
         // 可以继续添加更多图片信息
     ];
 
