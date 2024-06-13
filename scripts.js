@@ -3,7 +3,13 @@ document.addEventListener('DOMContentLoaded', () => {
         { src: 'images/image1.jpg', alt: '展示图片1', description: '七点鲳' },
         { src: 'images/image2.jpg', alt: '展示图片2', description: '加工后' },
         { src: 'images/image3.jpg', alt: '展示图片3', description: '丰收' },
-        { src: 'images/image4.jpg', alt: '展示图片4', description: '风景' }
+        { src: 'images/image4.jpg', alt: '展示图片4', description: '风景' },
+        { src: 'images/image5.jpg', alt: '展示图片5', description: '早上' },
+        { src: 'images/image6.jpg', alt: '展示图片6', description: '停靠' },
+        { src: 'images/image7.jpg', alt: '展示图片7', description: '船' },
+        { src: 'images/image8.jpg', alt: '展示图片8', description: '丰收' },
+        { src: 'images/image9.jpg', alt: '展示图片9', description: '船' },
+        { src: 'images/image10.jpg', alt: '展示图片10', description: '风景' }
         // 可以继续添加更多图片信息
     ];
 
